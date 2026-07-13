@@ -1,3 +1,11 @@
+.navbar {
+    transition: all 0.5s ease-in-out;
+}
+
+/*body {
+    padding-top: 70px;
+}*/
+
 .header {
     background: #151515 url('../images/intro-bg.jpg') no-repeat center center;
     background-size: cover;
@@ -30,6 +38,27 @@
     width: 200px;
 }
 
+#about, #cv, #projects, #contact {
+    scroll-margin-top: 100px;
+}
+.navbar-sticky {
+    background: #fff;
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
+
+.about-list-group-item {
+  position: relative;
+  display: block;
+  padding: var(--bs-list-group-item-padding-y) var(--bs-list-group-item-padding-x);
+  color: var(--bs-list-group-color);
+  text-decoration: none;
+  background-color: none;
+  border: none;
+}
+
 .project:hover {
     transform: scale(1.05);
     transition: all 0.5s ease-in-out;
@@ -55,7 +84,45 @@
 .services .container {
     z-index: 10;
 }
+
+.to-top-btn {
+  position: fixed;
+  z-index: 20;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: #cc005f;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.to-top-btn {
+  &:hover {
+    background-color: #1d1d21;
+  }
+}
+
+.to-top-btn {
+  img {
+    margin-bottom: 0.25rem;
+    width: 18px;
+  }
+}
+
+.show {
+  opacity: 1;
+}
+
 @media(max-width: 767px) {
+     .navbar {
+        background: var(--bs-dark);
+    }
+
     .header .social i {
         font-size: 30px;
     }

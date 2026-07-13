@@ -3,12 +3,12 @@ $font-family-sans-serif: 'Poppins', sans-serif;
 
 //Colors
 $primary: #cc005f;
-$secondary: #990047;
+$secondary: #d0d2df;
 $dark: #000;
 $light: #f4f4f4;
 
 // Buttons
-$button-radius: 0px;
+$button-radius: 50px;
 $button-padding-x: 30px;
 $button-padding-y: 12px;
 
@@ -21,6 +21,12 @@ $btn-padding-x-lg: $button-padding-x;
 $btn-padding-y: $button-padding-y;
 $btn-padding-y-sm: $button-padding-y;
 $btn-padding-y-lg: $button-padding-y;
+
+// Navbar
+$navbar-nav-link-padding-x: 0.8rem;
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+
 
 $navbar-toggler-border-radius: 5px;
 
