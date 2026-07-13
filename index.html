@@ -16,20 +16,58 @@
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/lightbox.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Brad Traversy | Web Developer</title>
+    <link rel="icon" type="image/png" href="/images/heather-circle.png" />
+    <title>Heather Larson | Back-End and Applications Developer</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+        <a class="navbar-brand" href="#">
+          <img src="images/heather-circle.png" alt="" width="65" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/images/Heather  Larson 2026.pdf" download>CV & Cover Letter</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Portfolio</a>
+            </li>
+ <!--           <li class="nav-item">
+              <a
+                class="nav-link btn btn-outline-primary px-4 mx-4"
+                href="#contact"
+                >Contact Me</a>
+            </li>-->
+          </ul>
+        </div>
+    </nav>
 
     <header class="header vh-100 text-center position-relative">
       <div class="text-container position-relative d-flex flex-column justify-content-center align-items-center h-100">
         <h5 class="text-primary fs-3 fw-bold text-uppercase">
-          Hello World!
+          Welcome to my portfolio!
         </h5>
 
         <h1 id="typing-text" class="display-1 fw-bold text-white"></h1>
         <p class="roles text-white text-uppercase fs-4">
-          <span>Back-End Web and Applications Developer | </span>
-          <span>Something else here</span>
+          <span>Back-End Web and Applications Developer</span>
         </p>
         <a href="#about" class="btn btn-outline-light btn-lg mt-3">
           <div class="d-flex">
@@ -42,7 +80,7 @@
           </div>
         </a>
 
-        <div class="social d-flex gap-3 position-absolute">
+<!--        <div class="social d-flex gap-3 position-absolute">
           <a href="#">
             <i class="fab fa-twitter fa-3x text-white"></i>
           </a>
@@ -61,44 +99,147 @@
           <a href="#">
             <i class="fab fa-github fa-3x text-white"></i>
           </a>
-        </div>
+        </div>-->
       </div>
     </header>
 
     <!-- About -->
     <section id="about" class="about bg-light py-5">
       <div class="container">
-        <div class="text-center">
-          <h4 class="text-uppercase fw-bold text-primary">About Me</h4>
-          <hr class="w-25 mx-auto" />
-          <h2 class="mb-4">Let me introduce myself.</h2>
+        <div class="row mb-4">
+          <div class="col-12">
+            <div class="text-center">
+              <h4 class="text-uppercase fw-bold text-primary">About Me</h4>
+              <hr class="w-25 mx-auto" />
+              <h2 class="mb-4">Allow me to introduce myself.</h2>
+            </div>
+            <div class="about-content d-flex align-items-center justify-content-center">
+              <img src="images/heather-circle.png" alt="" class="about-img img-fluid rounded-circle " />
+            </div>
+          </div>
         </div>
-        <div class="about-content d-flex gap-5 align-items-center h-100">
-          <img
-            src="images/brad.jpg"
-            alt=""
-            class="about-img img-fluid rounded-circle" />
-          <p class="lead">
-            I am a back-end web and applications developer from St. Andrews, MB. I started writing
-            code over 30 years ago in elementary school, using Logo.  My principal recognized my talent and entered me into a coding competition.  In Grade 5, I earned second place and, in Grade 6, I earned First Place.
-            In junior high school, I dabbled with C++ and command line.  In high school, with the evolution of schools creating computer labs, I learned Pascal.</p>
-            <p class="lead">
-            At The Collegiate in Winnipeg, I learned Turbo Pascal and, in College, I learned so many application-based languages, including PowerBuilder, COBOL, C#, Visual Basic, and Java, to name a few.
-            After graduating in June 2004, Google launched their smart-search capabilities in August of 2004, and website creation took off like never before.  Unfortunately, my skills were primarily applications-based, not web-based, and I was instantly behind where I wanted to be.</p>
-            <p class="lead">With my first "real" job in programming, I used PowerBuilder to assist maintaining the Government of Canada's Agriculture department for assistance with livestock and cattle relief in crisis years. </p>
-            <p class="lead">My next job sent me on the road installing alarm systems between northwest Alberta and southwest Ontario, but the passion for coding and IoT made me want to learn how the alarm panels had been programmed, what programming languages had been used, and how the signals between the panels and the wireless sensors worked.</p>
 
-            With the evolutiontechnologies like HTML, CSS, JavaScript and PHP. I have worked for
-            companies as well as ran my own. In 2016 I started creating content
-            full-time. I love helping people learn to code and better their
-            lives.
-          </p>
+        <div class="row">
+          <div class="col-12">
+            <p class="lead">
+              I am a back-end web and applications developer from St. Andrews, MB with over 20 years of experience. </p>
+              <p class="lead">I started writing code over 30 years ago in elementary school, using Logo, which was designed as a tool to teach children mathematical thinking and computational logic.  My principal recognized my talent and entered me into a coding competition.  I earned second place in Grade 5 and first place in Grade 6.</p>
+              <p class="lead">In junior high school, I dabbled with C++ and command line.  In high school, with the evolution of schools creating computer labs, I learned Pascal.</p>
+              <p class="lead">
+                At The Collegiate in Winnipeg in 1999, I learned Turbo Pascal and, at Red River College between 2001 - 2004, I learned so many application-based languages, including:
+            </p>
+          </div>
         </div>
-      </div>
+        <div class="row mb-3">
+          <div class="col-md-4">
+            <ul class="list-group list-group-flush">
+              <li class="about-list-group-item"><i class="fas fa-check"></i> PowerBuilder</li>
+              <li class="about-list-group-item"><i class="fas fa-check"></i> COBOL</li>
+              <li class="about-list-group-item"><i class="fas fa-check"></i> C/C++</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-group list-group-flush">
+              <li class="about-list-group-item"><i class="fas fa-check"></i> HTML</li>
+              <li class="about-list-group-item"><i class="fas fa-check"></i> PHP</li>
+              <li class="about-list-group-item"><i class="fas fa-check"></i> XML</li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-group list-group-flush">
+              <li class="about-list-group-item"><i class="fas fa-check"></i> JavaScript</li>
+              <li class="about-list-group-item"><i class="fas fa-check"></i> SQL</li>
+              <li class="about-list-group-item"><i class="fas fa-check"></i> Visual Basic</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div col="md-12">
+            <p class="lead">After graduating in June 2004, Google launched their smart-search capabilities in August of 2004, and website creation took off like never before.  Up until that point, the majority of Computer Science programs were applications-baxed, and I realized that I was instantly behind where I wanted to be.</p>
+            <p class="lead">between 2006-2009, in my first "real" job in programming, I used PowerBuilder to assist maintaining the Government of Canada's Agriculture department for assistance with livestock and cattle relief in crisis years. </p>
+            <p class="lead">My next career path sent me on the road installing alarm systems between northwest Alberta and southwest Ontario, but the passion for coding and IoT made me want to learn how the alarm panels had been programmed, what programming languages had been used, and how the signals between the panels and the wireless sensors worked.</p>
+            <p class="lead">From 2012 - 2018, I worked at Modern Earth Web Design, later merged with neovation corporation, as a Junior Developer, where I learned ColdFusion, an Adobe programming language.  Over 6 years, I moved into several roles, and wore several hats, including:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 offset-3">
+            <ul class="list-group list-group-flush">
+              <li class="about-list-group-item"><i class="fas fa-check"></i> 2012-2014: ColdFusion Developer</li>
+              <li class="about-list-group-item"><i class="fas fa-check"></i> 2014-2015: Quality Assurance Specialist</li>
+              <li class="about-list-group-item"><i class="fas fa-check"></i> 2014 - 2016: Support Team Lead</li>
+              <li class="about-list-group-item"><i class="fas fa-check"></i> 2016 - 2017: Voiceover Talent</li>
+              <li class="about-list-group-item"><i class="fas fa-check"></i> 2014 - 2018: Client Coach & LMS Administrator</li>
+            </ul>
+          </div>
+        </div>
+ 
+        <div class="row">
+          <div class="col-md-12 mt-3">
+            <p class="lead">From 2018 - 2022, I worked at Ensemble Travel Group as a Reporting Manager & SQL Developer, using PHP with a Laravel framework and Zoho Deluge to integrate the client portal with the analytics anbd reporting product to issue monthly sales reports via API calls to Zoho. I also oversaw a team off offshore developers who were attempting to build a reporting system for airline data.</p>
+            <p class="lead">From 2025 - 2025, I worked for a start-up travel technology company where we had one primary client and 5 staff.  I was the sole developer on the team, and the client's tech stack was failing exponentially fast.  We raced into action and replaced 12+ applications within 2 years to support their failing architecture.<br/>Unfortunately, I knew that I needed a break, so I waited until the majority of their tech stack was stable and operational, and then stepped away to take care of myself.</p>
+            <p class="lead">From 2026 and onwards, I have been taking time for myself, learning new languages and expanding my portfolio.  I just completed a Bootstrap 5 course, which I used to help me build this website!  I've always been "aware" of Bootstrap, but have never had the opportunity to use these features for myself, until now!<br/>I have also created my own consulting company and am working on a product to launch into the market at a later date.<br/><br/>The languages I have learned in 2026 are:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 offset-1">
+            <ul class="list-group list-group-flush">
+              <li class="about-list-group-item"><i class="fas fa-check"></i> Bootstrap 5</li>
+            </ul>
+          </div>
+          <div class="col-md-3 offset-1">
+            <ul class="list-group list-group-flush">
+              <li class="about-list-group-item"><i class="fas fa-check"></i> Ruby on Rails</li>
+            </ul>
+          </div>
+          <div class="col-md-3 offset-1">
+            <ul class="list-group list-group-flush">
+              <li class="about-list-group-item"><i class="fas fa-clock mb-34"></i> Python (in progress)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-md-12">
+            <p class="lead">I also plan on taking a Fullstack Developer course, in order to learn:</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 offset-1">
+            <ul class="list-group list-group-flush">
+              <li class="about-list-group-item"><i class="fas fa-plus"></i> Node.js</li>
+            </ul>
+          </div>
+          <div class="col-md-3 offset-1">
+            <ul class="list-group list-group-flush">
+              <li class="about-list-group-item"><i class="fas fa-plus"></i> React</li>
+            </ul>
+          </div>
+          <div class="col-md-3 offset-1">
+            <ul class="list-group list-group-flush">
+              <li class="about-list-group-item"><i class="fas fa-plus"></i> MongoDB</li>
+            </ul>
+          </div>
+          <div class="col-md-3 offset-1">
+            <ul class="list-group list-group-flush">
+              <li class="about-list-group-item"><i class="fas fa-plus"></i> JavaSCript</li>
+            </ul>
+          </div>
+          <div class="col-md-3 offset-1">
+            <ul class="list-group list-group-flush">
+              <li class="about-list-group-item"><i class="fas fa-plus"></i> Web3</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col-md-12">
+            <p class="lead">I am always learning and always striving to make myself a better developer, both for myself and for the teams I work with and interact with on a daily basis.</p>
+          </div>
+        </div>
+         
     </section>
 
     <!-- Profile & Skills -->
-    <section class="profile my-6">
+<!--   <section class="profile my-4">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -224,7 +365,7 @@
             </div>
           </div>
         </div>
-        <div class="row mt-5 text-center">
+        <div id="cv" class="row mt-4 text-center">
           <div class="col-12">
             <a
               href="#"
@@ -232,17 +373,17 @@
               >Hire Me Now</a
             >
             <a
-              href="#"
+              href="/images/Heather  Larson 2026.pdf" download
               class="btn btn-dark btn-lg text-uppercase px-5 mx-3 my-2"
               >Download CV</a
             >
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!-- Portfolio -->
-    <section class="portfolio py-5 bg-light">
+    <section id="projects" class="portfolio py-5 bg-light">
       <div class="container">
         <div class="text-center mb-5">
           <h4 class="text-uppercase fw-bold text-primary">Portfolio</h4>
@@ -254,12 +395,12 @@
           <div class="col-md-6 mb-4">
             <div class="project shadow-lg rounded-5">
               <a
-                href="images/project1.jpg"
+                href="images/Suitcase - Login.jpg"
                 data-lightbox="images"
-                data-title="Clipboard Landing Page"
+                data-title="Suitcase Login Page"
               >
                 <img
-                  src="images/project1.jpg"
+                  src="images/Suitcase - Login.jpg"
                   alt=""
                   class="img-fluid rounded-3"
                 />
@@ -270,12 +411,12 @@
           <div class="col-md-6 mb-4">
             <div class="project shadow-lg rounded-5">
               <a
-                href="images/project2.jpg"
+                href="images/Suitcase - Advisor Dashboard.jpg"
                 data-lightbox="images"
-                data-title="Loop Studios Website"
+                data-title="Suitcase Advisor Dashboard"
               >
                 <img
-                  src="images/project2.jpg"
+                  src="images/Suitcase - Advisor Dashboard.jpg"
                   alt=""
                   class="img-fluid rounded-3"
                 />
@@ -286,12 +427,12 @@
           <div class="col-md-6 mb-4">
             <div class="project shadow-lg rounded-5">
               <a
-                href="images/project3.jpg"
+                href="images/Suitcase - Partners.jpg"
                 data-lightbox="images"
-                data-title="Shortly Website"
+                data-title="Suitcase Partners List"
               >
                 <img
-                  src="images/project3.jpg"
+                  src="images/Suitcase - Partners.jpg"
                   alt=""
                   class="img-fluid rounded-3"
                 />
@@ -302,12 +443,12 @@
           <div class="col-md-6 mb-4">
             <div class="project shadow-lg rounded-5">
               <a
-                href="images/project4.jpg"
+                href="images/Suitcase - Events Calendar.jpg"
                 data-lightbox="images"
-                data-title="Flyo Website"
+                data-title="Suitcase Events Calendar"
               >
                 <img
-                  src="images/project4.jpg"
+                  src="images/Suitcase - Events Calendar.jpg"
                   alt=""
                   class="img-fluid rounded-3"
                 />
@@ -318,12 +459,12 @@
           <div class="col-md-6 mb-4">
             <div class="project shadow-lg rounded-5">
               <a
-                href="images/project5.jpg"
+                href="images/Suitcase - OAG Flight Search.jpg"
                 data-lightbox="images"
-                data-title="Bookmark Website"
+                data-title="Suitcase Flight Search"
               >
                 <img
-                  src="images/project5.jpg"
+                  src="images/Suitcase - OAG Flight Search.jpg"
                   alt=""
                   class="img-fluid rounded-3"
                 />
@@ -334,12 +475,12 @@
           <div class="col-md-6 mb-4">
             <div class="project shadow-lg rounded-5">
               <a
-                href="images/project6.jpg"
+                href="images/Suitcase - Unclaimed Commissions.jpg"
                 data-lightbox="images"
-                data-title="Grid Layout"
+                data-title="Suitcase Unclaimed Commissions"
               >
                 <img
-                  src="images/project6.jpg"
+                  src="images/Suitcase - Unclaimed Commissions.jpg"
                   alt=""
                   class="img-fluid rounded-3"
                 />
@@ -351,7 +492,7 @@
     </section>
 
     <!-- Styleshout -->
-    <section class="styleshout text-bg-dark bg-gradient p-6 text-center">
+    <!--<section class="styleshout text-bg-dark bg-gradient p-6 text-center">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -372,7 +513,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 
     <!-- Services -->
     <section class="services text-bg-dark py-5 position-relative">
@@ -387,33 +528,31 @@
           </p>
         </div>
         <div class="row">
-          <div class="col-md-4 text-center">
-            <i class="fas fa-globe fa-3x text-primary mb-3"></i>
-            <h3 class="fs-3">Web Design</h3>
+           <div class="col-md-4 text-center">
+            <i class="fas fa-code fa-3x text-primary mb-3"></i>
+            <h3 class="fs-3">Web Development & Functionality</h3>
             <hr class="w-25 mx-auto" />
             <p class="fs-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quis
-              autem quam, illo quisquam eligendi illum delectus nam amet porro!
+              I help design, develop, and enhance websites and web applications that drive results. From custom development and system integrations to performance improvements and ongoing support, I create reliable, user-friendly digital solutions that improve customer experiences, streamline operations, and support business growth.
+
             </p>
           </div>
 
-          <div class="col-md-4 text-center">
-            <i class="fas fa-code fa-3x text-primary mb-3"></i>
-            <h3 class="fs-3">Web Development</h3>
+         <div class="col-md-4 text-center">
+            <i class="fas fa-globe fa-3x text-primary mb-3"></i>
+            <h3 class="fs-3">Web Analysis & Design</h3>
             <hr class="w-25 mx-auto" />
             <p class="fs-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quis
-              autem quam, illo quisquam eligendi illum delectus nam amet porro!
+              I help analyze, plan, and design effective web solutions that align with a business's goals. Through requirements gathering, process analysis, user experience design, and solution architecture, I create clear, scalable digital strategies that improve usability, efficiency, and customer engagement.
             </p>
           </div>
 
           <div class="col-md-4 text-center">
             <i class="fas fa-shopping-cart fa-3x text-primary mb-3"></i>
-            <h3 class="fs-3">Advetising & SEO</h3>
+            <h3 class="fs-3">Project Analysis & Management</h3>
             <hr class="w-25 mx-auto" />
             <p class="fs-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quis
-              autem quam, illo quisquam eligendi illum delectus nam amet porro!
+              I help successfully deliver projects through strategic analysis, planning, and management. By defining requirements, coordinating stakeholders, managing timelines and resources, and identifying risks, I ensure projects stay aligned with business objectives and are delivered efficiently and effectively.
             </p>
           </div>
         </div>
@@ -421,31 +560,31 @@
     </section>
 
     <!-- Stats -->
-    <section class="stats py-5 text-bg-secondary">
+    <section class="stats py-4 text-bg-secondary">
       <div class="container">
         <div class="row g-0">
-          <div class="col-md-4 col-lg-2">
-            <div class="stat text-center border-end border-dark">
+          <div class="col-md-1 offset-3 col-lg-2">
+            <div class="stat text-center border-start border-end border-dark pe-1">
               <i class="fas fa-users fa-3x mb-3"></i>
-              <p class="fs-1">500+</p>
-              <h3 class="fs-6 text-uppercase">Clients</h3>
+              <p class="fs-1">10,000+</p>
+              <h3 class="fs-6 text-uppercase">Clients Logged On</h3>
             </div>
           </div>
-          <div class="col-md-4 col-lg-2">
+          <div class="col-md-1 col-lg-2">
             <div class="stat text-center border-end border-dark">
               <i class="fas fa-project-diagram fa-3x mb-3"></i>
-              <p class="fs-1">700+</p>
-              <h3 class="fs-6 text-uppercase">Projects</h3>
+              <p class="fs-1">25+</p>
+              <h3 class="fs-6 text-uppercase">Projects <br/>Built</h3>
             </div>
           </div>
-          <div class="col-md-4 col-lg-2">
+          <div class="col-md-1 col-lg-2">
             <div class="stat text-center border-end border-dark">
               <i class="fas fa-clock fa-3x mb-3"></i>
-              <p class="fs-1">16+</p>
-              <h3 class="fs-6 text-uppercase">Years</h3>
+              <p class="fs-1">20+</p>
+              <h3 class="fs-6 text-uppercase">Years <br/>Experience</h3>
             </div>
           </div>
-          <div class="col-md-4 col-lg-2">
+<!--      <div class="col-md-4 col-lg-2">
             <div class="stat text-center border-end border-dark">
               <i class="fas fa-book fa-3x mb-3"></i>
               <p class="fs-1">25</p>
@@ -465,13 +604,13 @@
               <p class="fs-1">1M+</p>
               <h3 class="fs-6 text-uppercase">Students</h3>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
 
     <!-- Contact -->
-    <section class="contact text-bg-dark bg-gradient py-5">
+  <!--  <section id="contact" class="contact text-bg-dark bg-gradient py-5">
       <div class="container">
         <div class="row">
           <div class="col-md-8 offset-md-2">
@@ -483,10 +622,10 @@
                 If you have any questions or would like to work together, please
                 contact me with the form below.
               </p>
-            </div>
+            </div>-->
 
             <!-- Form -->
-            <form name="contact" netlify>
+            <!--<form name="contact" netlify>
               <div class="mb-5">
                 <input
                   type="text"
@@ -515,13 +654,13 @@
               </div>
             </form>
           </div>
-        </div>
+        </div>-->
         <!-- Footer -->
-        <div class="d-flex mt-5">
-          <p class="flex-grow-1">
-            Copyright &copy; 2023 | Design By StyleShout
+        <div class="mt-3">
+          <p class="text-center justify-content-center">
+            Copyright &copy; 2026 | Heather Larson & BookSmart Travel
           </p>
-          <div class="hstack gap-3">
+       <!--   <div class="hstack gap-3">
             <a href="#">
               <i class="fab fa-facebook fa-2x text-white"></i>
             </a>
@@ -537,11 +676,13 @@
             <a class="text-decoration-none" href="#">
               <i class="fab fa-dribbble fa-2x text-white"></i>
             </a>
-          </div>
+          </div>-->
         </div>
       </div>
+    <button id="to-top" class="to-top-btn">
+      <img src="images/up-arrow.png" alt="" />
+    </button>
     </section>
-
 
 
     <script src="js/bootstrap.bundle.min.js"></script>
